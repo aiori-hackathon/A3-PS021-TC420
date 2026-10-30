@@ -1,0 +1,30 @@
+{
+  "name": "aiori-ps021-dialog-correlation",
+  "version": "0.1.0",
+  "description": "Experimental Dialog Correlation and Recovery Across Agent Adapters",
+  "main": "dist/core/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test:scenarios": "tsx tests/scenarios.test.ts",
+    "demo": "tsx src/scenarios/runner.ts",
+    "start": "tsx src/core/server.ts"
+  },
+  "keywords": [
+    "dialog-correlation",
+    "agent-adapters",
+    "idempotency",
+    "recovery"
+  ],
+  "author": "AIORI-3 Team",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
