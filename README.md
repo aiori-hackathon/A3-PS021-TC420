@@ -184,3 +184,5 @@ To ensure complete technical honesty and academic rigor:
 3. **No Distributed Interoperability Claims**: Full interoperability across external heterogeneous agent ecosystems is out of scope.
 4. **Honest Delivery Model**: We do **not** claim physical "exactly-once delivery" over network transports, which is theoretically impossible in asynchronous networks. The true model is:
    $$\text{At-least-once transport delivery} + \text{Idempotent receiver} = \text{Effectively-once side effects within prototype}$$
+
+link of explanation video: https://youtu.be/h6z4UesO1rs
